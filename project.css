@@ -1,6 +1,29 @@
 div {
-  margin: auto;
   border-style: solid;
   border-color: red;
+  margin:auto;
   text-align: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+left-container {
+  float: left;
+  border-style: none;
+}
+
+right-container {
+  float: right;
+  border-style: none;
+}
+
+location {
+  text-align: center;
+}
+
+.ul .home {
+text-decoration: none;
+
 }
