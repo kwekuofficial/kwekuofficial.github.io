@@ -1,29 +1,65 @@
-div {
-  border-style: solid;
-  border-color: red;
+.container {
+  width:1080px
+  margin: auto;
+  font-family: sans-serif;
+  color: black;
+  display: block;
   margin:auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1024px;
+  }
+
+
+
+.main {
+  background-size: cover;
+  margin-top: 10%;
+  margin-bottom: 10%;
   text-align: center;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  background-image: url("afsiva3.jpg");
+  padding-top: 1%;
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
 }
 
-left-container {
-  float: left;
+.main > h1 {
+  width: 1080px;
+  height: 780px;
+  text-align: center;
+  background-size: cover;
+}
+
+.left-container {
+  text-align: left;
   border-style: none;
+  padding-top: 30px;
+  padding-left: 10%
+  width: 33.3%;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: inline;
 }
 
-right-container {
+.right-container {
+  padding-top: 30px;
+  text-align: right;
   float: right;
   border-style: none;
+  width: 33.3%;
+  margin: 30px 30px 30px 30px
+  display: inline;
 }
 
-location {
+.location {
   text-align: center;
+  padding-bottom: 50px;
 }
 
-.ul .home {
+.list > header {
 text-decoration: none;
-
 }
+
+body {
+margin: auto;
