@@ -14,8 +14,9 @@ li {
 
 
 body {
-  background-color: #C8C8C8;
+  background-color: gray;
   margin-top: auto;
+  padding-top: 15px;
 }
 
 .container {
@@ -51,11 +52,49 @@ body {
 
 .main > h1 {
   width: 1240px;
-  height: 780px;
+  height: 700px;
   text-align: center;
   background-size: cover;
-  position: relative;
   overflow: hidden;
+  background-position: center;
+}
+
+
+.left-container {
+  float:left;
+  text-align: left;
+  border-style: solid;
+  width: 530px;
+  height: 355px;
+  padding: 5px 5px 5px 5px;
+  overflow: hidden;
+  margin-left: 285px;
+  padding-bottom: 15px;
+}
+
+.right-container {
+  float: right;
+  text-align: left;
+  border-style: solid;
+  overflow: hidden;
+  padding: 5px 5px 5px 5px;
+  width: 500px;
+  margin-right: 285px;
+  height: auto;
+}
+
+.center-container {
+  margin-top: 425px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: thick;
+  text-align: center;
+
+}
+
+
+.center-container > p {
+  margin-left: 40px;
 }
 
 .location {
@@ -65,16 +104,12 @@ body {
   display: block;
 }
 
-main {
+.main {
   text-align: center;
 }
 
 h1 {
   color: white;
-  text-align: center;
-}
-
-center-container {
   text-align: center;
 }
 
@@ -88,9 +123,3 @@ footer {
 
 header {
   margin-top: 0px auto;
-
-}
-
-div {
-  margin-top: 5px;
-}
