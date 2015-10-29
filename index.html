@@ -9,31 +9,51 @@ alert("Welcome to Dress for Success by AFSIVA");
 </script>
 </head>
 <body>
-<header>
 <div class="container">
+<header>
 <div>
-<nav class="list">
-<h3>
-  <ul>
-    <a href="About"><li>About</li></a>
-</h3>
+  <nav class="list">
+  <h3>
+      <ul>
+        <a href="About"><li>About</li></a>
+      </ul>
+  </h3>
 </nav>
 </div>
 </header>
 <div class="main">
-  <h1>Dress for Success by Augusta Fells Savage Institute of Visual Arts</h1>
+<div class="boxform">
+<h2>Set up an appointment!</h2>
+  <form id="myform">
+      <p>Name: <input type="text" maxlength="25"></p><br>
+      <p>Gender:
+         <br>
+                 <input type="radio" name="sex" value="Male" checked="checked" /> Male
+                 <input type="radio" name="sex" value="Female" /> Female
+                 <input type="radio" name="sex" value="Custom" /> Custom
+     </p>
+      <p>Please select one of the available time slots convenient for you:
+         <br>
+                 <input type="radio" name="time" value="9:30am" checked="checked" /> 9:30 a.m.
+                 <input type="radio" name="time" value="10:30am" /> 10:30 a.m.
+                 <input type="radio" name="time" value="12:30pm" /> 12:30 p.m.
+      </p>
+      <button tyoe="Sumbit">Confirm</button>
+  </form>
+</div>
 </div>
 <div class="left-container">
     <h2>Support Baltimore City Students Dress for Success!!!</h2>
        <p>The Augusta Fells Savage Institute of Visual Arts, a SWOWS Community School, is
          seeking community professionals to donate gently used business attire for our
          "Dress for Success" Initiative for the 2015/16 school year.</p>
-         <img src="afsiva1.jpg" height="180px" width="530px">
+         <img src="afsiva1.jpg" height="325px" width="530px">
 </div>
 <div class="right-container">
     <h2>Donate Gently Used Attire</h2>
         <p>We will provide AFSIVA students with business atire, interviewing workshops
           and tools to prepare them for business and scholastic endeavors at our school clothing closet and in the classroom.</p>
+          <img src="business.jpg" height="350px" width="530px">
   </div>
         <br>
         <div class="center-container">
@@ -41,7 +61,7 @@ alert("Welcome to Dress for Success by AFSIVA");
           <ul>
             <li><strong>The Augusta Fells Savage Institute of Visual Arts</strong>
               <br>1500 Harlem Ave, Baltimore, MD
-                  <br>9am-2pm</li>
+              <br>9am-2pm</li>
                   <hr>
             <li><strong>University of Maryland School of Social Work</strong>
               <br>525 W Redwood St, Baltimore, MD
@@ -51,7 +71,7 @@ alert("Welcome to Dress for Success by AFSIVA");
         </div>
 <div class="bottom">
 <footer>
-  <p><strong>Questions?</strong> Please Contact <a href="https://umd.edu">University of Maryland</a> Intern Lindsay Cole at 410-371-7389</p>
+  <p><strong>Questions?</strong> Please Contact <strong><a href="https://umd.edu">University of Maryland</a></strong> Intern Lindsay Cole at 410-371-7389</p>
 </footer>
 </div>
 </div>
