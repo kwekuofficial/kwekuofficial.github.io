@@ -1,26 +1,39 @@
-a {
+ a {
   text-decoration: none;
   color: white;
   display: inline;
   list-style-type: none;
+  padding-right: 5px;
 }
+
 
 body {
   background-color: DarkCyan;
   color: white;
-  margin: 0 25px 25px 25px;
+  margin: 0;
+  padding: 0;
 }
 
 .boxform {
   border-style: solid;
   width: 530px;
-  height: 355px;
+  height: 280px;
   border-color: DarkCyan;
-  margin: 400px auto auto 235px;
+  margin: 380px 0 50px 400px;
   background-color: yellow;
   border-radius: 15px;
   padding-bottom: 10px;
   color: DarkCyan;
+  opacity: 0.8;
+}
+
+button {
+  background-color: DarkCyan;
+  max-height: 100%;
+  color: yellow;
+  border-color: DarkCyan
+  border-radius: 10px
+  padding: 2px 2px 2px 2px;
 }
 
 .center-container {
@@ -39,34 +52,28 @@ body {
   background-image: url("430.png");
   height: 150px;
   background-position: left;
-  border-bottom-color: DarkRed;
+  border-bottom: 5px solid DarkRed;
 }
 
-div {
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 footer {
   text-align: center;
   margin-top: 40px;
-  bottom: 0
+  bottom: 0;
   height: 40px;
 }
 
-footer > a {
-  color: yellow;
-}
 
-
-
-header {
-  margin-top: 5px;
+h3.no-spacing {
+  padding: 0;
+  margin: 0;
 }
 
 hr {
-  text-align: center;
+  margin-right: 50px;
+  max-width: 100%;
 }
+
 
 
 .left-container {
@@ -85,6 +92,8 @@ text-align: center;
 
 .left-container > img {
   border-radius: 15px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 li {
@@ -96,31 +105,16 @@ li {
 
 .main {
   background-size: cover;
-  margin-bottom:2%;
   text-align: center;
   background-image: url("afsiva3.jpg");
-  background-size: cover;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 10%;
+  padding: 0;
   background-repeat: no-repeat;
   border-color: yellow;
   border-style: solid;
   background-position: center;
-  height: 580px;
-  border-radius: 25px;
-  margin-top: 130px;
-}
-
-.main > h4 {
-  background-color: white;
-  overflow: hidden;
-  width: 500px;
-  float:left;
-  margin-top: 400px;
-  height: 355px;
-  padding-top: 15px;
-  color: black;
+  border-radius: 5px;
+  margin-top: 135px;
+  border-width: 100%;
 }
 
 .right-container {
@@ -139,4 +133,12 @@ li {
 
 .right-container > img {
   border-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+ul.no-spacing {
+ padding: 0;
+ margin: 0;
 }
