@@ -19,7 +19,7 @@ body {
   width: 530px;
   height: 280px;
   border-color: #628863;
-  margin: 380px 0 50px 400px;
+  margin: 380px 0 50px 280px;
   background-color: #E1D334;
   border-radius: 15px;
   padding-bottom: 10px;
@@ -39,7 +39,7 @@ button:hover {
 }
 
 .center-container {
-  margin-top: 580px;
+  margin-top: 625px;
   border-style: solid;
   border-color: #E1D334;
   border-width: thick;
@@ -90,7 +90,7 @@ hr {
   width: 530px;
   height: 500px;
   padding: 5px 5px 5px 5px;
-  margin-left: 325px;
+  margin: 0 0 0 150px;
   overflow: inherit;
 }
 
@@ -100,8 +100,8 @@ text-align: center;
 
 .left-container > img {
   border-radius: 15px;
-  max-height: 90.55%;
-  max-width: 90.55%;
+  max-height: 100%;
+  max-width: 100%;
   image-resolution: from-image;
   border: solid #E1D334;
 }
@@ -147,7 +147,7 @@ nav:hover {
   overflow: hidden;
   padding: 5px 5px 5px 5px;
   width: 530px;
-  margin-right: 325px;
+  margin: 75px 120px 0 0;
   height: 500px;
 }
 
