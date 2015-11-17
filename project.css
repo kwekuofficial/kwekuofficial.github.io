@@ -90,8 +90,7 @@ hr {
   width: 530px;
   height: 500px;
   padding: 5px 5px 5px 5px;
-  margin: 0 0 0 150px;
-  overflow: inherit;
+  margin: 0 0 0 120px;
 }
 
 .left-container > h2 {
@@ -100,9 +99,8 @@ text-align: center;
 
 .left-container > img {
   border-radius: 15px;
-  max-height: 100%;
+  height: auto;
   max-width: 100%;
-  image-resolution: from-image;
   border: solid #E1D334;
 }
 
@@ -144,10 +142,9 @@ nav:hover {
 .right-container {
   float: right;
   text-align: left;
-  overflow: hidden;
   padding: 5px 5px 5px 5px;
   width: 530px;
-  margin: 75px 120px 0 0;
+  margin: 90px 180px 0 0;
   height: 500px;
 }
 
@@ -158,10 +155,14 @@ nav:hover {
 .right-container > img {
   border-radius: 15px;
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
   border: solid #E1D334;
 }
 
+.side-containers {
+  width: auto;
+  height:
+}
 
 ul.no-spacing {
  padding: 0;
@@ -171,4 +172,14 @@ ul.no-spacing {
 /* Make HTML 5 elements display block-level for consistent styling */
 header, nav, footer {
     display: block;
+}
+
+
+/* Media Queries for devices */
+@media screen and (max-width: 500px) {
+  .container {
+    width: auto;
+    float: none;
+    margin: 0;
+  }
 }
