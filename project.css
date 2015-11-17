@@ -48,15 +48,9 @@ button:hover {
 
 .container {
   font-family: sans-serif;
-  background-repeat:no-repeat;
-  background-size: auto;
-  text-align: right;
-  background-image: url("430.png");
-  height: 150px;
-  background-position: left;
-  border-bottom: 5px solid DarkRed;
+  padding: 0;
+  spacing: 0;
 }
-
 
 footer {
   text-align: center;
@@ -72,6 +66,14 @@ h3.no-spacing {
 }
 
 header {
+  font-family: sans-serif;
+  background-repeat:no-repeat;
+  background-size: auto;
+  text-align: right;
+  background-image: url("430.png");
+  height: 150px;
+  background-position: left;
+  border-bottom: 5px solid DarkRed;
   padding: 0;
   spacing: 0;
 }
@@ -123,7 +125,7 @@ li {
   border-style: solid;
   background-position: center;
   border-radius: 5px;
-  margin-top: 120px;
+  margin-top: 0;
   border-width: 100%;
   border-left-style: none;
   border-right-style: none;
@@ -175,11 +177,47 @@ header, nav, footer {
 }
 
 
-/* Media Queries for devices */
-@media screen and (max-width: 500px) {
-  .container {
+/* Media Queries for smartphone devices */
+@media screen and (max-width: 600px) {
+
+body {
+  background-color: #628863;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+.container {
     width: auto;
-    float: none;
     margin: 0;
-  }
+}
+
+.left-container {
+  float: none;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  width: 33%;
+  margin: 100px 180px 0 0;
+  height: 500px;
+
+}
+
+.main
+
+
+.right-container {
+  float: none;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  width: 33%;
+  margin: 100px 180px 0 0;
+  height: 500px;
+}
+
+
+
 }
