@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "aquawax";
+  src: url(http://url(http://www.dafont.com/aquawax.font); »
+  aquawax.ttf) format("truetype");
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  background-image: url("hallway.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  font-family: "aquawax", sans-serif;
+  color: yellow;
+  margin-left: 100px;
+}
+
+h1 {
+  margin: 0 0 0 15px;
+}
+
+.info-container {
+  width: 350px;
+  margin: 485px 0 0 0;
+}
+
+nav {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  float: right;
+  margin: -45px 25px 0 0;
+}
+
+nav:hover {
+  color: yellow;
+}
+
+
+.info-container > h2 {
+  color: yellow;
+}
+
+p {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin: 75px 0 0 0;
+}
+
+ul {
+  list-style: none;
+}
