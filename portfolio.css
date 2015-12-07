@@ -34,6 +34,10 @@ body {
   font-family: "aquawax", sans-serif;
 }
 
+.download-link > a:hover {
+  color: white;
+}
+
 header {
   font-family: "aquawax", sans-serif;
   color: yellow;
