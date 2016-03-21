@@ -1,131 +1,165 @@
 @font-face {
   font-family: "aquawax";
-  src: url(http://url(http://www.dafont.com/aquawax.font); »
-  aquawax.ttf) format("truetype");
+  src: url("http://url(http://www.dafont.com/aquawax.font");
+  » aquawax.ttf) format("truetype");
 }
 
+.backdrop {
+  background-color: #000;
+  border-radius: 10px;
+  opacity: 1;
+ }
 
-a {
-  text-decoration: none;
-  list-style: none;
+.back-text {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 0;
+  margin: 15px;
+  opacity: 0.8;
+  display: block;
+  color: #FFF;
 }
 
-
+.back-text-fade {
+  z-index: 1;
+  color: #FFF;
+  padding: 10px;
+}
 
 body {
-  background-image: url("hallway.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #D3E2E9;
 }
 
-button {
-  background-color: yellow;
-  color: white;
-  border-color: white;
-  border-style: solid 2px;
-  border-radius: 15px;
-  width: 235px;
-  height: 65px;
+.center-button {
+  color: #000;
   text-align: center;
-  margin: 30px 0 0 0;
+}
+
+.center-button:hover {
+  color: #6EB0D2;
+}
+
+.developer {
+ margin: 0 0 0 0;
+ background-image: url("https://www.dropbox.com/s/0uzk5m0976h2umr/HolidayInnSuites_Hotel__Suites_Ocean_City_-_Boardwalk_-_971642.jpg?raw=1");
+ background-size: cover;
+ height: 800px;
+ border-bottom: #FFF 5px solid;
+ color: #FFF;
+ font-size: 24px;
+ z-index: 1;
+}
+
+.developer-headline {
+  color: #FFF;
+  font-size: 48px;
+  text-align: center;
+}
+
+.developer-fade {
+  background-color: #000;
+  padding: 5px;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.developer-text {
+  padding: 5px;
+  text-align: center;
 }
 
 
-button > a {
-  color: black;
+.freecodecamp-btn a:hover {
+  color: #FFF;
   text-decoration: none;
-  font-family: "aquawax", sans-serif;
+
 }
-
-button > a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-header {
-  font-family: "aquawax", sans-serif;
-  color: yellow;
-  margin-left: 100px;
-}
-
-h1 {
-  margin: 0 0 0 15px;
-}
-
-.info-container {
-  margin: 600px 0 0 0;
-}
-
-.link-styling {
-  color: yellow;
-}
-
-nav ul li a {
-  color: yellow;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-
-nav {
-  display: inline;
-  list-style: none;
-  text-decoration: none;
-  float: right;
-  margin: -45px 25px 0 0;
-}
-
-nav:hover {
-  color: yellow;
-}
-
-
-.info-container > h2 {
-  color: yellow;
-}
-
-p {
-  color: white;
-}
-
 
 footer {
-  text-align: center;
-  margin: 100px 0 0 0;
-  color: yellow;
-}
-
-footer > p {
-  color: yellow;
-}
-
-
-ul {
-  list-style: none;
-}
-
-@media screen and (max-width: 400px) {
-
-body {
-  background-image: url("hallway.jpg");
+  background-color: #D3E2E9;
+  color: #FFF;
+  background-image: url("https://www.dropbox.com/s/jrecoxckjk4092s/10-Ocean-City-Boardwalk.jpg?raw=1");
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%
-  max-height: auto;
+}
+
+.footer-text {
+  text-align: center;
+  padding-top: 10px;
 }
 
 header {
-  margin: 0 0 0 0;
-  padding: 0 5px 0 5px;
+  border-bottom: #FFF 5px solid;
+  background-image: url("https://www.dropbox.com/s/jrecoxckjk4092s/10-Ocean-City-Boardwalk.jpg?raw=1");
+  background-size: cover;
+  color: #FFF;
+  font-family: "aquawax", sans-serif;
+  padding: 10px 0 10px 20px;
 }
 
-nav {
-  margin: 25px 0px 0 -40px;
-  float: none;
+.icon-tabs {
+  margin-top: 100px;
+  float: right;
 }
 
+
+
+.kweku-headline {
+  background-image: url("https://www.dropbox.com/s/jrecoxckjk4092s/10-Ocean-City-Boardwalk.jpg?raw=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: #FFF 5px solid;
+  color: #FFF;
+  height: 1000px;
+  text-align: center;
+}
+
+.kweku-headline h1 {
+  font-family: "aquawax", sans-serif;
+  font-size: 96px;
+}
+
+.kweku-headline p {
+  font-size: 32px;
+}
+
+.my-skills {
+  color: #FFF;
+  font-family: "aquawax", sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+.no-text-fade {
+  background-color: #000;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.radial-icon {
+  border: 5px solid #FFF;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+
+}
+
+.radial-iconbox {
+  float: left;
+}
+
+.radial-icon-2 {
+  border-radius: 50%;
+  border: #FFF 10px solid;
+}
+
+
+
+ul li {
+  display: inline;
+  padding: 5px;
+}
+
+ul a {
+  color: #FFF;
 }
