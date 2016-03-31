@@ -88,6 +88,10 @@ footer {
   padding-top: 10px;
 }
 
+.github {
+  color: #000;
+}
+
 header {
   border-bottom: #FFF 5px solid;
   background-image: url("https://www.dropbox.com/s/jrecoxckjk4092s/10-Ocean-City-Boardwalk.jpg?raw=1");
@@ -121,6 +125,10 @@ header {
 
 .kweku-headline p {
   font-size: 32px;
+}
+
+.linkedin {
+  color: #000;
 }
 
 .my-skills {
